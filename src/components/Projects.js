@@ -1,14 +1,25 @@
+
+//*dependencias
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+//*separação do site,app,outros serviços
 import { ProjectCard } from "./ProjectCard";
 import { ProjectCard1 } from "./ProjectCard1";
 import { ProjectCard2 } from "./ProjectCard2";
+//*outros serviços
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
-import apptest from "../assets/img/app_test.jpg";
+//*App
+import app_imob from "../assets/img/app_imob.png";
+import APP1 from "../assets/img/APP1.png";
+import restaurant from "../assets/img/restaurant.png";
+//*site
+import realstate from "../assets/img/realstate.png";
+import food from "../assets/img/food.png";
+import market from "../assets/img/market.png";
+//* fundo (bg)
 import colorSharp2 from "../assets/img/color-sharp2.png";
-
-
+//fim
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -20,33 +31,19 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: realstate,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: food,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: market,
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+
   ];
 
 
@@ -55,17 +52,17 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: apptest,
+      imgUrl: app_imob,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: APP1,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: restaurant,
     },
 
   ];
