@@ -6,9 +6,9 @@ import { ProjectCard } from "./ProjectCard";
 import { ProjectCard1 } from "./ProjectCard1";
 import { ProjectCard2 } from "./ProjectCard2";
 //*outros serviços
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import api from "../assets/img/api.png";
+import cloud from "../assets/img/cloud.png";
+import database from "../assets/img/database.png";
 //*App
 import app_imob from "../assets/img/app_imob.png";
 import APP1 from "../assets/img/APP1.png";
@@ -72,17 +72,17 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: api,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: cloud,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: database,
     },
 
   ];
