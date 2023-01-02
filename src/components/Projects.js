@@ -44,8 +44,6 @@ export const Projects = () => {
       imgUrl: projImg3,
     },
 
-    
-    
   ];
 
 
