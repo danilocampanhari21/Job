@@ -33,7 +33,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Abilità</h2>
-                        <p>Sappiamo che alcune caratteristiche psicologiche umane sono le stesse ovunque nel mondo. Ecco alcune statistiche su come qualcuno potrebbe ricordare la tua attività.</p>
+                        <p>Sappiamo che alcune caratteristiche psicologiche umane sono le stesse in tutto il mondo. Eccotene alcune:</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="#" />

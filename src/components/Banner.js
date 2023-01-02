@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Benvenuto", "Ti ringraziamo per essere qui", "Sii il benvenuto" ];
+  const toRotate = [ "Benvenuto" ];
   const period = 2000;
 
   useEffect(() => {
@@ -56,8 +56,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Benvenuto a Attuale</span>
-                <h1>{`Ciao, sei nella Attuale`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Sii il benvenuto", "Ti ringraziamo per essere qui", "Attuale" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Con più di 50 clienti in tutto il Sud America, con esperienze e risultati già applicati, Attuale oggi opera in Italia, aprendo il mercato e dimostrando l'efficacia dei metodi utilizzati.</p>
+                <h1>{`Ciao,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "A Attuale" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>Con più di 15 clienti in tutto il Sud America, Attuale oggi opera in Italia, aprendo mercato e dimostrando dei metodi utilizzati.</p>
               </div>}
             </TrackVisibility>
           </Col>

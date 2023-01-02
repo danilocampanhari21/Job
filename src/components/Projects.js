@@ -101,7 +101,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Progetti</h2>
-                <p>Alcune delle funzioni più importanti nel Marketing sono la creazione di strutture importanti, come possiamo vedere di seguito alcuni dei nostri lavori già svolti</p>
+                <p>Alcuni dei nostri lavori sono già stati eseguiti.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
@@ -116,7 +116,7 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                    <p>La creazione di un sito Web è un must per i clienti nuovi ed esistenti per sapere cosa hai da offrire.</p>
+                    <p></p>
                       <Row>
                         {
                           projects.map((project, index) => {
@@ -132,7 +132,7 @@ export const Projects = () => {
                       
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                    <p>La creazione di un'applicazione serve a dimostrare la serietà dell'azienda che il cliente sta acquistando, in quanto dimostra fiducia, praticità e sicurezza per il cliente.</p>
+                    <p></p>
                     <Row>
                         {
                           ProjectCard1.map((project, index) => {
@@ -148,12 +148,7 @@ export const Projects = () => {
 
                   </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                    <p>
-                       API<br></br>
-                       Creazione di Software<br></br>
-                       Aggiornamenti Software<br></br>
-                       Sicurezza informatica<br></br>
-                    </p>
+                    <p></p>
 
                     <Row>
                         {
