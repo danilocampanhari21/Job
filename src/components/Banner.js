@@ -58,7 +58,6 @@ export const Banner = () => {
                 <span className="tagline">Benvenuto a Attuale</span>
                 <h1>{`Ciao, sei nella Attuale`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Sii il benvenuto", "Ti ringraziamo per essere qui", "Attuale" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Con più di 50 clienti in tutto il Sud America, con esperienze e risultati già applicati, Attuale oggi opera in Italia, aprendo il mercato e dimostrando l'efficacia dei metodi utilizzati.</p>
-                  <button onClick={() => console.log('connect')}>Iniziamo? <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
@@ -75,3 +74,7 @@ export const Banner = () => {
     </section>
   )
 }
+
+
+// botão 'iniziamo' com o efeito de espaçamento//* - colocar embaixo do '<p>' na linha 60
+//<button onClick={() => console.log('connect')}>Iniziamo? <ArrowRightCircle size={25} /></button>
