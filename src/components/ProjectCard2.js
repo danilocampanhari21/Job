@@ -1,6 +1,6 @@
 import { Col } from "react-bootstrap";
 
-export const ProjectCard1 = ({ title, description, imgUrl}) => {
+export const ProjectCard2 = ({ title, description, imgUrl}) => {
     return (
         <Col sm={6} md={4}>
             <div className="proj-imgbox">
@@ -14,4 +14,4 @@ export const ProjectCard1 = ({ title, description, imgUrl}) => {
     )
 }
 
-export default ProjectCard1;
+export default ProjectCard2;

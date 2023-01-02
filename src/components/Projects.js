@@ -1,8 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
+import { ProjectCard1 } from "./ProjectCard1";
+import { ProjectCard2 } from "./ProjectCard2";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import apptest from "../assets/img/app_test.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 
@@ -12,6 +15,7 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
+  //*SITIO//
   const projects = [
     {
       title: "Business Startup",
@@ -43,9 +47,50 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl: projImg3,
     },
+  ];
+
+
+//*APPLICAZIONE//
+  const ProjectCard1 = [
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: apptest,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: projImg2,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: projImg3,
+    },
+
+  ];
+  
+  //*ALTRO SERVIZI//
+  const ProjectCard2 = [
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: projImg1,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: projImg2,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: projImg3,
+    },
 
   ];
 
+ 
 
   return (
     <section className="project" id="project">
@@ -84,12 +129,13 @@ export const Projects = () => {
                           })
                         }
                       </Row>
+                      
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                     <p>La creazione di un'applicazione serve a dimostrare la serietà dell'azienda che il cliente sta acquistando, in quanto dimostra fiducia, praticità e sicurezza per il cliente.</p>
                     <Row>
                         {
-                          projects.map((project, index) => {
+                          ProjectCard1.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -111,7 +157,7 @@ export const Projects = () => {
 
                     <Row>
                         {
-                          projects.map((project, index) => {
+                          ProjectCard2.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -120,7 +166,8 @@ export const Projects = () => {
                             )
                           })
                         }
-                      </Row>                    </Tab.Pane>
+                      </Row>                   
+                      </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
               </div>}
