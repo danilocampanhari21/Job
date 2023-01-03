@@ -14,7 +14,7 @@ import app_imob from "../assets/img/app_imob.png";
 import APP1 from "../assets/img/APP1.png";
 import restaurant from "../assets/img/restaurant.png";
 //*site
-import realstate from "../assets/img/realstate.png";
+import projectimg1 from "../assets/img/project-img1.png";
 import food from "../assets/img/food.png";
 import market from "../assets/img/market.png";
 //* fundo (bg)
@@ -31,7 +31,7 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: realstate,
+      imgUrl: projectimg1,
     },
     {
       title: "Business Startup",
