@@ -1,3 +1,7 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+
+# Host
+Host: https: https://attuale.netlify.app
+
+Sitemap: https://attuale.netlify.app/sitemap.xml
